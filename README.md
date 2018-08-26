@@ -10,10 +10,10 @@ python ueGetshell.py -h<br>
 ![](https://github.com/theLSA/ueditor-getshell/raw/master/demo/uegetshell00.png)<br>
 
 单url检测：python -u http://www.vulndomain.com/controller.ashx -s 5<br>
-![](https://github.com/theLSA/ueditor-getshell/raw/master/demo/uegetshell00.png)<br>
+![](https://github.com/theLSA/ueditor-getshell/raw/master/demo/uegetshell01.png)<br>
 
 批量检测：python -f urls.txt -t 10 -s 5<br>
-![](https://github.com/theLSA/ueditor-getshell/raw/master/demo/uegetshell00.png)<br><br>
+![](https://github.com/theLSA/ueditor-getshell/raw/master/demo/uegetshell02.png)<br><br>
 
 # 反馈<br>
 * 博客： http://www.lsablog.com/<br>
