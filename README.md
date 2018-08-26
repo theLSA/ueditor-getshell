@@ -1,4 +1,4 @@
-ueGetshell - ueditor .net getshell漏洞检测工具
+ueGetshell.py - ueditor .net getshell漏洞检测工具
 ================================================
 
 # 概述<br>
