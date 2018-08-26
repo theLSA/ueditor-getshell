@@ -9,10 +9,10 @@ ueditor .net版本 getshell漏洞检测工具，支持单url、批量检测，�
 python ueGetshell.py -h<br>
 ![](https://github.com/theLSA/ueditor-getshell/raw/master/demo/uegetshell00.png)<br>
 
-单url检测：python -u http://www.vulndomain.com/controller.ashx -s 5<br>
+单url检测：python ueGetshell.py -u http://www.vulndomain.com/controller.ashx -s 5<br>
 ![](https://github.com/theLSA/ueditor-getshell/raw/master/demo/uegetshell01.png)<br>
 
-批量检测：python -f urls.txt -t 10 -s 5<br>
+批量检测：python ueGetshell.py -f urls.txt -t 10 -s 5<br>
 ![](https://github.com/theLSA/ueditor-getshell/raw/master/demo/uegetshell02.png)<br><br>
 
 # 反馈<br>
