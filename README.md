@@ -1,11 +1,12 @@
 ueGetshell.py - ueditor .net getshell漏洞检测工具
 ================================================
+<br>
 
 # 概述<br>
 ueditor .net版本 getshell漏洞检测工具，支持单url、批量检测。<br>
-注意代码中的remoteShell要改成自己的远程shell地址！<br>
 漏洞详情参考 [ueditor getshell漏洞重现及分析](http://www.lsablog.com/networksec/penetration/ueditor-getshell-analysis/) 
-<br><br>
+<br>
+**注意：代码中的remoteShell要改成自己的远程shell地址！**<br><br>
 
 # 快速开始<br>
 
